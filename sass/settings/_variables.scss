@@ -1,0 +1,24 @@
+$main-typo: 'Open Sans', sans-serif;
+
+//colors
+$dark-green: #012525;
+$bone-white: #F2F2F0;
+$white: #FFFFFF;
+
+
+$size: 1rem;
+
+// base-Typography
+
+$typo-xs: $size;
+$typo-s: $size * 1.5;
+
+// Mobile-Typography
+
+$typo-m: $size * 1.7;
+$typo-l: $size * 3.3;
+
+// Desktop-Typography
+
+$typo-xl: $size * 4;
+$typo-xxl: $size * 5.5;

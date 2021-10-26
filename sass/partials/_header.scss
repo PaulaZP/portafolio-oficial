@@ -1,0 +1,46 @@
+.header {
+  padding: 6rem 0;
+}
+.header_nav {
+  display: none;
+}
+.header_welcome {
+  border: 0.5rem solid $bone-white;
+  background-image: url(../../img/background-header.png);
+  background-size: cover;
+  color: $bone-white;
+  text-align: center;
+  font-weight: bold;
+
+  p {
+    font-size: $typo-l;
+  }
+
+  h3 {
+    font-size: $typo-m;
+    padding-bottom: 2.5rem;
+  }
+
+  /*Animación*/
+  .titles-home-animate{
+    left: 0.10rem;
+    top: 3rem;
+    border-right: 2px solid $bone-white;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
+  .anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 4.8em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: $bone-white;}
+    to{border-right-color: transparent;}
+  }
+}

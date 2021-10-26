@@ -1,0 +1,70 @@
+.information {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: $typo-m;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  @media (min-width: 40rem) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.information_form {
+  background-color: $white;
+  color: $dark-green;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+
+  label{
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+
+  input{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    width: 85%;
+    height: 2rem;
+    border: 0.2rem solid $dark-green;
+  }
+
+  button{
+    padding: 1rem 1.5rem;
+    color: $bone-white;
+    background-color: $dark-green;
+    border: none;
+    margin-left: 1rem;
+  }
+
+  button:hover{
+    background-color: #1e4d1e;
+    border: none;
+    color:$bone-white;
+  }
+
+  @media (min-width: 40rem) {
+    width: 50%;
+  }
+}
+
+.information_personal {
+  background-color: $dark-green;
+  color: $bone-white;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+
+  p {
+    margin: 1rem;
+  }
+
+  @media (min-width: 40rem) {
+    width: 50%;
+  }
+}
