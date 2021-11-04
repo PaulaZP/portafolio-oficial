@@ -52,6 +52,10 @@
   @media (min-width: 40rem) {
     width: 50%;
   }
+
+  @media (min-width: 60rem) {
+    width: 40%;
+  }
 }
 
 .information_personal {
@@ -66,5 +70,9 @@
 
   @media (min-width: 40rem) {
     width: 50%;
+  }
+
+  @media (min-width: 60rem) {
+    width: 60%;
   }
 }
