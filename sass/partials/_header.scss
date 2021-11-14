@@ -126,7 +126,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 10rem 0;
 
   p {
     margin-top: 6rem;
@@ -141,6 +140,10 @@
   h3 {
     font-size: $typo-m;
     padding-bottom: 2.5rem;
+  }
+
+  @media (min-width: 60rem) {
+    padding: 10rem 0;
   }
 
   /*Animación*/
