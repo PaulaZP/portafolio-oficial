@@ -180,7 +180,7 @@ body {
   background-size: cover;
   color: #F2F2F0;
   font-weight: bold;
-  margin-top: 3rem;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -198,7 +198,8 @@ body {
     padding-bottom: 2.5rem; }
   @media (min-width: 60rem) {
     .header_welcome {
-      padding: 10rem 0; } }
+      padding: 10rem 0;
+      margin-top: 3rem; } }
   .header_welcome .titles-home-animate {
     left: 0.10rem;
     top: 3rem;
