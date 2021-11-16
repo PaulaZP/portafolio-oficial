@@ -176,7 +176,8 @@ body {
 
 .header_welcome {
   border: 0.5rem solid #F2F2F0;
-  background-image: url(../img/background-header.png);
+  background-image: url(../img/background.svg);
+  background-repeat: no-repeat;
   background-size: cover;
   color: #F2F2F0;
   font-weight: bold;
@@ -302,6 +303,7 @@ body {
 
 .projects_cards--information {
   background-color: #F2F2F0;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -315,7 +317,10 @@ body {
       width: 20%; } }
   .projects_cards--information img {
     width: 100%; }
-  .projects_cards--information p {
+  .projects_cards--information h3 {
+    color: #012525;
+    text-align: center; }
+  .projects_cards--information ul {
     color: #012525;
     margin: 1rem;
     text-align: justify; }

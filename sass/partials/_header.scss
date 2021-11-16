@@ -117,7 +117,8 @@
 
 .header_welcome {
   border: 0.5rem solid $bone-white;
-  background-image: url(../img/background-header.png);
+  background-image: url(../img/background.svg);
+  background-repeat: no-repeat;
   background-size: cover;
   color: $bone-white;
   font-weight: bold;

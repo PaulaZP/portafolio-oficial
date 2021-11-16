@@ -22,6 +22,7 @@
 
 .projects_cards--information {
   background-color: $bone-white;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -40,7 +41,12 @@
     width: 100%;
   }
 
-  p {
+  h3 {
+    color: $dark-green;
+    text-align: center;
+  }
+
+  ul {
     color: $dark-green;
     margin: 1rem;
     text-align: justify;
