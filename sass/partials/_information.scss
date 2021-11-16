@@ -1,12 +1,12 @@
 .information {
-  margin-top: 3rem;
+  background-color: $dark-green;
+  color: $bone-white;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 
   h2 {
     font-size: $typo-m;
-    text-align: center;
     margin: 0;
-    margin-bottom: 3rem;
   }
 
   @media (min-width: 40rem) {
@@ -15,64 +15,45 @@
     justify-content: space-between;
   }
 }
-.information_form {
-  background-color: $white;
-  color: $dark-green;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+.information_personal{
+  padding: 3rem 0;
 
-  label{
-    margin-left: 1rem;
-    font-weight: bold;
+  h2 {
+    margin: 0 0 3rem 5rem;
   }
 
-  input{
-    margin-top: 0.5rem;
-    margin-left: 1rem;
+  ul {
+    margin-left: 2.5rem;
+    list-style: none;
+  }
+
+  li {
     margin-bottom: 2rem;
-    width: 85%;
-    height: 2rem;
-    border: 0.2rem solid $dark-green;
   }
 
-  button{
-    padding: 1rem 1.5rem;
-    color: $bone-white;
-    background-color: $dark-green;
-    border: none;
-    margin-left: 1rem;
-  }
-
-  button:hover{
-    background-color: #1e4d1e;
-    border: none;
-    color:$bone-white;
-  }
-
-  @media (min-width: 40rem) {
-    width: 50%;
-  }
-
-  @media (min-width: 60rem) {
-    width: 40%;
+  img {
+    margin-right: 1rem;
   }
 }
 
-.information_personal {
-  background-color: $dark-green;
-  color: $bone-white;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+.information_contact {
+  padding: 3rem 0;
+
+  h2 {
+    margin-left: 5rem;
+  }
 
   p {
-    margin: 1rem;
+    margin: 2rem 0 5rem 5rem;
+  }
+
+  .information_contact-social {
+    margin: 2rem 0 0 5rem;
   }
 
   @media (min-width: 40rem) {
-    width: 50%;
-  }
-
-  @media (min-width: 60rem) {
-    width: 60%;
+    h2 {
+      margin-right: 5rem;
+    }
   }
 }
